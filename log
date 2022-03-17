@@ -2,3 +2,9 @@ ju., 17 de mar. de 2022 17:22:37:
  tests:  0|6
 total_score: 0/70
 59e5b7d
+ju., 17 de mar. de 2022 17:23:06: 
+ list.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+ tests:  1|5
+total_score: 10/70
+b931316
