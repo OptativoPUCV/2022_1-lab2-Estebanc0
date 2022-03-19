@@ -67,13 +67,14 @@ void * prevList(List * list) {
 
 void pushFront(List * list, void * data) {
     list->head=firstList(list);
-    list->tail=lastList(list);
+    
     Node* p=createNode(data);
     
     list->head=p;
+    list->tail=p;
     nextList(list);
     list->head->next=list->current;
-    //list->current->prev=list->head;
+    list->current->prev=list->head;
 }
 
 void pushBack(List * list, void * data) {
