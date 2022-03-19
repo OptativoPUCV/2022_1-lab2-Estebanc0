@@ -1084,3 +1084,8 @@ sá., 19 de mar. de 2022 20:22:58:
  1 file changed, 8 insertions(+), 1 deletion(-)
  tests:  0|0
 fed47c3
+sá., 19 de mar. de 2022 20:25:13: 
+ list.c | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+ tests:  0|0
+766f921
