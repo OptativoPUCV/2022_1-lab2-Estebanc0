@@ -599,3 +599,14 @@ vi., 18 de mar. de 2022 23:35:34:
  tests:  9|3
 total_score: 35/70
 5a3bef7
+vi., 18 de mar. de 2022 23:36:50: 
+ list.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:69:11: error: unused variable 'p' [-Werror=unused-variable]
+     Node* p=createNode(data);
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+58e4317
