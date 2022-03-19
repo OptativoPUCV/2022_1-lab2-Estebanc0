@@ -102,9 +102,9 @@ void * popCurrent(List * list) {
     if(list->current->prev!=NULL){
         list->tail=list->current->prev;
     }
-    else {
+    /*else {
         list->head=list->current->next;
-    }
+    }*/
 }
 
 void cleanList(List * list) {
