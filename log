@@ -95,3 +95,9 @@ vi., 18 de mar. de 2022 22:02:26:
  tests:  2|5
 total_score: 15/70
 ac123ab
+vi., 18 de mar. de 2022 22:03:18: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 15/70
+4d1e74e
