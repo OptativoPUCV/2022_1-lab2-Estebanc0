@@ -291,3 +291,8 @@ vi., 18 de mar. de 2022 22:29:08:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 45a367a
+vi., 18 de mar. de 2022 22:30:05: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+7b87cc8
