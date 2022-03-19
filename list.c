@@ -45,6 +45,7 @@ void * firstList(List * list) {
 
 void * nextList(List * list) {   
     if(!list->current) return NULL;
+    printf("%d",list->current->data);
     list->current=list->head->next;
     return list->current->data;
     
