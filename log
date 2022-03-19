@@ -301,3 +301,9 @@ vi., 18 de mar. de 2022 22:30:47:
  1 file changed, 2 insertions(+), 2 deletions(-)
  tests:  0|0
 fc06334
+vi., 18 de mar. de 2022 22:32:25: 
+ list.c | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+ tests:  2|5
+total_score: 15/70
+fd37315
