@@ -99,12 +99,15 @@ void * popBack(List * list) {
 }
 
 void * popCurrent(List * list) {
+    Node* aux;
     if(list->current==list->tail){
-        list->tail=list->current->prev;
+        aux=list->current->prev;
+        list->tail=aux;
         list->tail->next=NULL;
     }
     if(list->current==list->head){
-        list->head=list->current->next;
+        aux=list->current->next;
+        list->head=aux;
         list->head->prev=NULL;
     }
     return list->current->data;
