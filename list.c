@@ -105,7 +105,7 @@ void * popCurrent(List * list) {
     }
     if(list->current==list->head){
         list->head=list->current->next;
-        list->tail->prev=NULL;
+        list->head->prev=NULL;
     }
     return list->current->data;
 }
