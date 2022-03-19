@@ -633,3 +633,9 @@ vi., 18 de mar. de 2022 23:40:52:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 124aa8c
+vi., 18 de mar. de 2022 23:41:35: 
+ list.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  9|3
+total_score: 35/70
+0288f49
