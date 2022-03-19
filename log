@@ -62,3 +62,8 @@ list.c:47:28: error: comparison between pointer and integer [-Werror]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 7abdec3
+vi., 18 de mar. de 2022 21:56:47: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|0
+8b59d9c
