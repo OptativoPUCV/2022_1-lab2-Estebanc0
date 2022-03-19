@@ -1049,3 +1049,9 @@ sá., 19 de mar. de 2022 20:09:12:
  tests:  10|2
 total_score: 45/70
 9801ba8
+sá., 19 de mar. de 2022 20:10:14: 
+ list.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+4619d2b
