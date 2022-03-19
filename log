@@ -545,3 +545,9 @@ vi., 18 de mar. de 2022 23:21:53:
  tests:  9|3
 total_score: 35/70
 14702f6
+vi., 18 de mar. de 2022 23:22:34: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+fda6a5c
