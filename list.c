@@ -72,7 +72,7 @@ void pushFront(List * list, void * data) {
     
     list->head=p;
     list->tail=p;
-    nextList(list);
+    firstList(list);
     list->head->next=list->current;
     //list->current->prev=list->head;
 }
