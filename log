@@ -329,3 +329,13 @@ vi., 18 de mar. de 2022 22:35:14:
  tests:  3|5
 total_score: 15/70
 400f815
+vi., 18 de mar. de 2022 22:38:38: 
+ list.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+list.c: In function 'prevList':
+list.c:61:34: error: expected identifier before ';' token
+     list->current=list->current->;
+                                  ^
+Compilation failed
+1181af2
