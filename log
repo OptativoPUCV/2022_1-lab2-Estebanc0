@@ -849,3 +849,17 @@ list.c:106:5: error: suggest parentheses around assignment used as truth value [
 cc1.exe: all warnings being treated as errors
 Compilation failed
 77a43c2
+sá., 19 de mar. de 2022  0:37:42: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:102:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     if(list->current=list->tail){
+     ^~
+list.c:106:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     if(list->current=list->head){
+     ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c486128
