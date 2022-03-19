@@ -111,7 +111,7 @@ void * popCurrent(List * list) {
     aux=list->current;
     if(list->current->prev!=NULL){
         list->current->prev->next=list->current->next;
-        list->tail=list->current;
+        list->head=list->current;
     }
     else{
 
@@ -119,7 +119,7 @@ void * popCurrent(List * list) {
     }
     if(list->current->next!=NULL){
         list->current->next->prev=list->current->prev;
-        list->head=list->current;
+        list->tail=list->current;
     }
     return aux->data;
 }
