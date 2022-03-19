@@ -787,3 +787,17 @@ sá., 19 de mar. de 2022  0:15:26:
  tests:  10|2
 total_score: 45/70
 7f20ccf
+sá., 19 de mar. de 2022  0:20:55: 
+ list.c | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushCurrent':
+list.c:89:16: error: 'return' with a value, in function returning void [-Werror]
+         return NULL;
+                ^~~~
+list.c:86:6: note: declared here
+ void pushCurrent(List * list, void * data) {
+      ^~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+d3c9190
