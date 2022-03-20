@@ -92,6 +92,7 @@ void pushCurrent(List * list, void * data) {
     }
     list->current->next=aux;
     aux->prev=list->current;
+    if(aux->next==NULL) list->tail=aux;
     
 }
 
