@@ -1183,3 +1183,9 @@ sá., 19 de mar. de 2022 21:08:09:
  tests:  10|2
 total_score: 45/70
 ec1fb12
+sá., 19 de mar. de 2022 21:08:30: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+5466fc3
