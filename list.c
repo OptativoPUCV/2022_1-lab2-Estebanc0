@@ -113,10 +113,9 @@ void * popCurrent(List * list) {
         // list->current=list->current->next;
         list->head=list->current->next;
         list->head->next=p;
-        list->head->prev=NULL;
         p->prev=list->head;
     }
-    
+    list->head->prev=NULL;
     return list->current->data;
 }
 
